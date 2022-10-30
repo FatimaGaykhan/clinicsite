@@ -1,0 +1,441 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+}
+
+.header-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.container {
+    padding: 0 6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    width: 70%;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.appointment {
+    width: 15%;
+}
+
+.appointment a {
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 30px;
+    color: black;
+    padding: 13px 40px;
+}
+
+#Dr {
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/09/bg_slider.jpg?id=21587);
+    padding: 5rem 0;
+    background-attachment: fixed;
+}
+
+.doctor-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.doctor-all .left {
+    width: 40%;
+
+}
+
+.doctor-all .right {
+    width: 50%;
+}
+
+.doctor-all .right img {
+    width: 100%;
+}
+
+.doctor-all .left h1 {
+    font-size: 56px;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 6rem;
+    padding-bottom: 1rem;
+}
+
+.doctor-all .left p {
+    padding-left: 6rem;
+    color: #fff;
+    padding-bottom: 4rem;
+}
+
+.doctor-all .left a {
+    margin-left: 6rem;
+    font-size: 14px;
+    letter-spacing: .6px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 23px;
+    background-color: #337ab7;
+    font-weight: 600;
+    padding: 16px 33px;
+    color: #fff;
+
+}
+
+#products-all .container {
+    padding: 0 6rem;
+}
+
+
+#products-all .container .top .top1 h1 {
+    text-align: center;
+    font-size: 36px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+#products-all .bottom .products {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#products-all .bottom .products .box {
+    width: 25%;
+}
+
+#products-all .bottom .products .box .top a img {
+    width: 100%;
+}
+
+#products-all .bottom .products .box .bottom h3 {
+    padding: 10px 0;
+}
+
+#products-all .bottom .products .box .bottom {
+    background-color: #f2f2f2;
+}
+
+#products-all .bottom .products .box .bottom2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#products-all .bottom .products .box .top img {
+    border-radius: 20px 20px 0 0;
+    vertical-align: bottom;
+}
+
+#products-all .bottom .products .box .bottom {
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#products-all .bottom .products .box .bottom .bottom2 a {
+    color: black;
+    opacity: .3;
+}
+
+#products-all .container .bottom .products2 .box {
+    width: 25%;
+    padding-top: 2rem;
+}
+
+#products-all .container .bottom .products2 .box .top a img {
+    width: 100%;
+
+}
+
+#products-all .container .bottom .products2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#products-all .container .bottom .products2 .box .bottom {
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f2f2f2;
+}
+
+#products-all .container .bottom .products2 .box .bottom .bottom2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#products-all .container .bottom .products2 .box .bottom .bottom2 {
+    padding: 10px 0;
+
+}
+
+#products-all .container .bottom .products2 .box .top a img {
+    border-radius: 20px 20px 0 0;
+    vertical-align: bottom;
+
+}
+
+#products-all .container .bottom .products2 .box .bottom .bottom2 a i {
+    opacity: .3;
+    color: black;
+}
+
+#products-all .container .bottom .exp-cat a {
+    color: #fff;
+    background-color: #016ba7;
+    margin-left: 35rem;
+    padding: 14px 40px;
+    border-radius: 25px;
+
+}
+
+#products-all .container .bottom .exp-cat {
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+}
+
+main .quality {
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Thermo_banner.jpg?id=22303);
+    padding: 13rem 6rem;
+    background-position: center;
+    text-align: center;
+}
+
+main .quality h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+main .quality .firstp {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #fff;
+
+}
+
+main .quality .secondp {
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+main .quality a {
+    background-color: #fff;
+    padding: 10px;
+    padding: 14px 40px;
+    border-radius: 25px;
+    color: #016ba7;
+    font-weight: bold;
+}
+.scroll-bar{
+    padding-bottom: 9rem;
+}
+
+.scroll-bar .products .top .top1{
+    padding-top: 4rem;
+
+}
+
+.scroll-bar .container .products .top .bottom1{
+    display: flex;
+    justify-content: space-between;
+}
+.scroll-bar .products .top .top1 h1{
+    padding-bottom: 2rem;
+    text-align: center;
+    font-weight: 900;
+    font-size: 38px;
+}
+.scroll-bar .container .products .top .bottom1 .box{
+    width: 23%;
+
+}
+.scroll-bar .container .products .top .bottom1 .box .top2 img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    vertical-align: bottom;
+}
+.scroll-bar .container .products .top .bottom1 .box .bottom2{
+    padding: 1rem 0;
+    border-radius:0 0 10px 10px;
+    background-color: #f2f2f2;
+    margin-bottom: 50px;
+}
+.scroll-bar .container .products .top .bottom1 .box .bottom2 h3{
+    color: black ;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.scroll-bar .container .products .bottom{
+   
+    text-align: center;
+
+}
+.scroll-bar .container .products .bottom a{
+    background-color: #337ab7;
+    padding: 14px 40px;
+    border-radius: 25px;
+    color: #fff;
+}
+.newsletter{
+    padding: 14rem 0;
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/subscribe-bg.jpg?id=22100);
+}
+.newsletter .top{
+    text-align: center;
+}
+.newsletter .bottom{
+    text-align: center;
+    position: relative;
+}
+.newsletter .top h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #fff;
+
+}
+.newsletter .top p{
+    font-size: 15px;
+    color: #fff;
+}
+.newsletter .top .scndp{
+    margin-bottom: 10px ;
+    color: #fff;
+}
+.newsletter .bottom input{
+    padding: 15px 170px;
+    border-radius: 25px 25px 25px 25px;
+    margin-bottom: 30px;
+}
+.newsletter .bottom a{
+    background-color: #337ab7;
+    font-size: 18px;
+    border-radius: 25px 25px 25px 25px;
+    padding: 11px 23px;
+    color: #fff;
+}
+.partners{
+    padding-bottom: 6rem;
+
+}
+.partners .container{
+    padding: 0 6rem;
+}
+.partners .top{
+    text-align: center;
+    
+}
+.partners .top h1{
+    margin-bottom: 10px;
+    margin-top: 14rem;
+    font-size: 40px;
+}
+.partners .top p{
+    margin-bottom: 5px;
+    color: #777;
+}
+.partners .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.partners .bottom .box{
+    width: 13%;
+}
+.partners .bottom .box a img{
+    width: 100%;
+    filter: grayscale(1);
+    opacity:.3 ;
+}
+.partners .bottom .box a img:hover{
+    /* filter: grayscale(0); */
+    opacity: 1;
+}
+.partners .bottom .zyuma {
+    align-items: center;
+}
+.benefit .container{
+    padding: 0 6rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.benefit .left .box1{
+    width: 10%;
+
+}
+.benefit .left .box2{
+    width: 10%;
+    margin-left: 100px;
+    height: 30%;
+}
+.benefit .left .box2 .box3{
+    width: 100%;
+
+}
+
+.benefit .left .box1 a img{
+    width: 100%;
+}
+.benefit .left .box2  .box3 a img{
+    width: 100%;
+}
+
+.benefit .container .left .bottom{
+    display: flex;
+
+}
+.benefit .container .right {
+    width: 40%;
+}
+.benefit .container .right img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
